@@ -1,11 +1,10 @@
 users = [
     {
+        id: 1,
         name: "Nicolas Romero",
         email: "nicolasromero@gmail.com",
         number: 1164046773,
         password: "Nico1234",
-        weight: 65,
-        height: 1.68,
     }
 ]
 
@@ -48,6 +47,21 @@ function newUser(inputName, inputEmail, inputNumber, inputPass, inputPass2) {
     console.log(`Contraseña2: ${inputPass2}`)
 
     if (inputPass === inputPass2) {
+
+        const index = users.length + 1
+        console.log(index)
+        
+        const newUser = {
+            id: index, 
+            name: inputName, 
+            email: inputEmail, 
+            number: inputNumber,
+            password: inputPass,
+        }
+
+        users.push(newUser)
+
+        console.log(users)
         alert("¡Cuenta creada!")
     } else {
         alert("No coinciden las contraseñas.")
