@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Home.css">
     <link rel="stylesheet" href="../index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
@@ -9,16 +10,29 @@
 <body>
     <div id="container">
     <header>
-        <img src="../img/index/logo.jpg" alt="Logo MeriendIA">
-        <h1>¡Bienvenido!</h1>
+        <img src="../img/home/meriendia.jpg" alt="Logo MeriendIA">
     </header>
-    <main>
-        <p>Ofertas</p>
+    <main id="home">
+        <h1>¡Bienvenido! 👋</h1>
+        <h2>¿Qué te apetece hoy?</h2>
+        <div id="suggest">
+            <p><strong>Sugerencia para tí 🌿</strong><br/><br/>
+                Ensalada mediterranea<br/><br/>
+                cerca de tí</p>
+            <img src="../img/home/ensaladaMediterranea.jpg" alt="Ensalada Mediterranea" id="salad">
+        </div>
+        <div id="map">
+            <h2>📍 Cerca de tí</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.4349035501054!2d-58.5668415!3d-34.6437181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7003c139095%3A0xa58c4c3d09b7790c!2sRECA%20CAFE!5e0!3m2!1ses-419!2sar!4v1780366011645!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <a href="https://maps.app.goo.gl/4nUSNJjdmnZ4Cbtg9" target="_blank">
+                <img src="../img/home/recaCafe.jpg" alt="Reca Cafe" id="imgMap">
+            </a>
+        </div>
     </main>
     <footer>
         <p><a href="../index.html">Cerrar Sesion</a></p>
     </footer>
     </div>
-    <script src="index.js"></script>
 </body>
 </html>

@@ -1,11 +1,7 @@
 #container {
     margin: auto;
-    width: 900px;
+    width: 500px;
     text-align: center;
-}
-
-#container p {
-    margin-bottom: 2rem;
 }
 
 label{

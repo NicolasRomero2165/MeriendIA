@@ -1,0 +1,59 @@
+#home{
+    display: block;
+    align-items: left;
+    text-align: left;
+}
+
+#home p {
+    color: black;
+}
+
+#suggest {
+    background-color: #487D2D;
+    display: flex;
+    float: left;
+    width: 100%;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+#suggest p {
+    color: white;
+    font-weight: normal;
+    padding: 1rem;
+    width: 55%;
+}
+
+#salad{
+    display: flex;
+    float: right;
+    width: 35%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+
+#map {
+    margin-top: 4rem;
+    border-radius: 2rem;
+}
+
+#map iframe {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+#imgMap{
+    margin-top: 0rem;
+    position:relative;
+    width: 99%;
+    border-radius: 2rem;
+    border: #487D2D solid 3px;
+    margin: auto;
+    float: none;
+}
+
+footer {
+    position: sticky;
+    z-index: 10;
+}
