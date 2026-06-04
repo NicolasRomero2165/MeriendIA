@@ -18,7 +18,16 @@ function newUser(inputName, inputEmail, inputNumber, inputPass, inputPass2) {
     console.log(`Contraseña1: ${inputPass}`)
     console.log(`Contraseña2: ${inputPass2}`)
 
-    
+    if(
+        inputName.trim() === '' ||
+        inputEmail.trim() === '' ||
+        inputNumber.trim() === '' ||
+        inputPass.trim() === '' ||
+        inputPass2.trim() === '') {
+            alert("Complete todos los campos, por favor.")
+            return;
+        }
+
     if (inputPass === inputPass2) {
 
         const index = users.length + 1
@@ -34,10 +43,21 @@ function newUser(inputName, inputEmail, inputNumber, inputPass, inputPass2) {
 
         users.push(newUser)
 
+        localStorage.setItem(users, newUser)
+
+        document.getElementById("name").value = ''
+        document.getElementById("email").value = ''
+        document.getElementById("number").value = ''
+        document.getElementById("password").value = ''
+        document.getElementById("password2").value = ''
+
         console.log(users)
         alert("¡Cuenta creada!")
+
+        return;
     } else {
         alert("No coinciden las contraseñas.")
+        return;
     }
 
     })

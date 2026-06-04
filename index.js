@@ -5,10 +5,16 @@ function login(inputEmail, inputPass) {
         .then(datos => {
     console.log(datos);
     let users = datos;
+    localStorage.getItem(users)
 
     inputEmail = document.getElementById("email").value
     inputPass = document.getElementById("password").value
 
+    if(inputEmail.trim() === '' || inputPass.trim() === '') {
+        alert('Debe completar todos los campos.')
+        return;
+    }
+    
     console.log(`Correo: ${inputEmail}`)
     console.log(`Contraseña: ********`)
 
@@ -16,7 +22,8 @@ function login(inputEmail, inputPass) {
         (item) => item.email === inputEmail && item.password === inputPass
     );
 
-    const name = users[0].name;
+    const index = users.length - 1;    
+    const name = users[index].name;
 
     if (loginOk) {
         alert(`¡Bienvenido, ${name}!`)
@@ -27,6 +34,7 @@ function login(inputEmail, inputPass) {
         return false
     }
 
+    return;
     })
     .catch(error => console.error('Error al cargar el JSON:', error));
 }
