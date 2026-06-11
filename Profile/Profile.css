@@ -1,0 +1,28 @@
+#image {
+    width: 30%;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#name {
+    text-align: center;
+}
+
+#menuProfile {
+    text-align: left;
+}
+
+.link{
+    margin-top: 2rem;
+    background-color: gainsboro;
+    border-radius: 2rem;
+    font-size: x-large;
+    font-weight: bold;
+    color: #487D2D;
+    text-align: left;
+    width: 100%;
+}
+
+.link:hover {
+    background-color: rgb(191, 189, 189);
+}

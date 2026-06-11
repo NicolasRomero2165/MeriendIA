@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Home/Home.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./Profile.css">
+    <title>Perfil</title>
+</head>
+<div id="container">
+    <header>
+        <img src="../img/home/meriendia.jpg" alt="Logo MeriendIA">
+    </header>
+    <main>
+        <div id="profile">
+            <img id="image" src="" alt="Foto de Usuario">
+            <h1 id="name"></h1>
+            <p id="email"></p>
+        </div>
+        <div id="menuProfile">
+            <button class="link">🕛Mis pedidos</button>
+            <button class="link">❤️Favoritos</button>
+            <button class="link">⚙️Configuración</button>
+            <button class="link">❓Ayuda y soporte</button>
+            <button class="link" onclick="toLogin()">👋Cerrar Sesión</button>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <button onclick="toHome()">🏠Inicio</button>
+            <button onclick="toMap()">📍Mapa</button>
+            <button onclick="toPoints()">🌿Puntos</button>
+            <button onclick="toProfile()">👤Perfil</button>
+        </nav>
+    </footer>
+    <script src="./Profile.js"></script>
+</html>

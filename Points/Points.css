@@ -1,0 +1,19 @@
+#suggest p{
+    width: 100%;
+}
+
+.reward{
+    border: solid 1px #487D2D;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.reward button{
+    width: 25%;
+    right: 0;
+}
+
+.points{
+    
+}

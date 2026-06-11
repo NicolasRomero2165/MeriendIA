@@ -4,6 +4,53 @@
     "name": "Nicolas Romero",
     "email": "nicolasromero@gmail.com",
     "number": 1164046773,
-    "password": "Nico1234"
+    "password": "Nico1234",
+    "image": "https://i.ibb.co/bRD0bvYL/image.png",
+    "points": 322
+    },
+    {
+    "id": 2,
+    "name": "Cristian Rojas",
+    "email": "cristianrojas@gmail.com",
+    "number": 1164774447,
+    "password": "Cristian1234",
+    "image": "https://i.ibb.co/fVLPbt9P/image.png",
+    "points": 160
+    },
+    {
+    "id": 3,
+    "name": "Leila",
+    "email": "leila@gmail.com",
+    "number": 1138502555,
+    "password": "Leila1234",
+    "image": "https://i.ibb.co/cSvGMF10/image.png",
+    "points": 224
+    },
+    {
+    "id": 4,
+    "name": "Daniel Kondratowich",
+    "email": "danielkondratowich@gmail.com",
+    "number": 1151175759,
+    "password": "Daniel1234",
+    "image": "https://i.ibb.co/fdFhV38w/image.png",
+    "points": 56
+    },
+    {
+    "id": 5,
+    "name": "Victoria Lopez",
+    "email": "victorialopez@gmail.com",
+    "number": 1138346198,
+    "password": "Victoria1234",
+    "image": "https://i.ibb.co/HfNbW16p/image.png",
+    "points": 430
+    },
+    {
+    "id": 6,
+    "name": "Fiore Cappellino",
+    "email": "fiorecappellino@gmail.com",
+    "number": 2804696292,
+    "password": "Fiore1234",
+    "image": "https://i.ibb.co/zH6zLwVK/image.png",
+    "points": 99
     }
 ]

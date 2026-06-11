@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Home/Home.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./Points.css">
+    <title>Puntos</title>
+</head>
+<body>
+    <div id="container">
+    <header>
+        <img src="../img/home/meriendia.jpg" alt="Logo MeriendIA">
+    </header>
+    <main id="home">
+        <h1>Tus puntos</h1>
+        <h3>Aprovecha los mejores descuentos</h3>
+        <div id="suggest">
+            <p>Tus puntos disponibles: <strong id="points"></strong><br/><br/>
+                <span id="next"></span></p>
+        </div>
+        <div>
+            <div class="reward">
+                <h3>10% de Descuento en tu compra</h3>
+                <p>Obten 10% de descuento en tu próxima compra en las tiendas habilitadas.</p>
+                <p class="points">200 puntos</p> <button class="redeem">Canjear</button>
+            </div>
+            <div class="reward">
+                <h3>20% de Descuento en Bolsa Sorpresa</h3>
+                <p>Obten 20% de descuento en tu próxima bolsa sorpresa en las tiendas habilitadas.</p>
+                <p class="points">500 puntos</p> <button class="redeem">Canjear</button>
+            </div>
+            <div class="reward">
+                <h3>50% en tu 2da Bolsa</h3>
+                <p>Llevando 2 bolsas, obten un 50% de descuento en la segunda bolsa.</p>
+                <p class="points">800 puntos</p> <button class="redeem">Canjear</button>
+            </div>
+            <div class="reward">
+                <h3>Actualizar a Premium</h3>
+                <p>Mejora tu cuenta a premium y obten mejores beneficios.</p>
+                <p class="points">1500 puntos</p> <button class="redeem">Canjear</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <button onclick="toHome()">🏠Inicio</button>
+            <button onclick="toMap()">📍Mapa</button>
+            <button onclick="toPoints()">🌿Puntos</button>
+            <button onclick="toProfile()">👤Perfil</button>
+        </nav>
+    </footer>
+    </div>
+</body>
+<script src="./Points.js"></script>
+</html>

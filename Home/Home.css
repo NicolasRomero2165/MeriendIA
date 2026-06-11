@@ -54,6 +54,22 @@
 }
 
 footer {
-    position: sticky;
     z-index: 10;
+    bottom: 0;
+    position: sticky;
+    margin-top: 0;
+    border-radius: 2rem;
+}
+
+footer button {
+    width: 24%;
+    margin-top: 0;
+}
+
+nav {
+    border-radius: 2rem;
+}
+
+nav button a {
+    color: white;
 }

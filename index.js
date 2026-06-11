@@ -5,7 +5,6 @@ function login(inputEmail, inputPass) {
         .then(datos => {
     console.log(datos);
     let users = datos;
-    localStorage.getItem(users)
 
     inputEmail = document.getElementById("email").value
     inputPass = document.getElementById("password").value
@@ -19,14 +18,19 @@ function login(inputEmail, inputPass) {
     console.log(`Contraseña: ********`)
 
     const loginOk = users.find(
-        (item) => item.email === inputEmail && item.password === inputPass
-    );
+        (item) => item.email === inputEmail && item.password === inputPass)
 
-    const index = users.length - 1;    
-    const name = users[index].name;
+    const user = users.find(item => item.email === inputEmail);
+    localStorage.setItem('name', user.name)
+    localStorage.setItem('email', user.email)
+    localStorage.setItem('number', user.number)
+    localStorage.setItem('image', user.image)
+    localStorage.setItem('points', user.points)
+
+    console.log(user.name)
 
     if (loginOk) {
-        alert(`¡Bienvenido, ${name}!`)
+        alert(`¡Bienvenido, ${user.name}!`)
         window.location.href = "./Home/Home.html";
         return true
     } else {
@@ -34,7 +38,6 @@ function login(inputEmail, inputPass) {
         return false
     }
 
-    return;
     })
     .catch(error => console.error('Error al cargar el JSON:', error));
 }
