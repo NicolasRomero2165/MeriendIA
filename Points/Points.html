@@ -17,29 +17,42 @@
         <h1>Tus puntos</h1>
         <h3>Aprovecha los mejores descuentos</h3>
         <div id="suggest">
-            <p>Tus puntos disponibles: <strong id="points"></strong><br/><br/>
+            <p>Tus puntos disponibles <br><br>
+                <strong id="points"></strong><br/><br/>
                 <span id="next"></span></p>
         </div>
         <div>
             <div class="reward">
                 <h3>10% de Descuento en tu compra</h3>
                 <p>Obten 10% de descuento en tu próxima compra en las tiendas habilitadas.</p>
-                <p class="points">200 puntos</p> <button class="redeem">Canjear</button>
+                <p class="points"><strong>200 puntos</strong></p>
+                <button class="redeem" onclick="redeem200()">Canjear</button>
             </div>
             <div class="reward">
                 <h3>20% de Descuento en Bolsa Sorpresa</h3>
                 <p>Obten 20% de descuento en tu próxima bolsa sorpresa en las tiendas habilitadas.</p>
-                <p class="points">500 puntos</p> <button class="redeem">Canjear</button>
+                <p class="points"><strong>500 puntos</strong></p>
+                <button class="redeem" onclick="redeem500()">Canjear</button>
             </div>
             <div class="reward">
                 <h3>50% en tu 2da Bolsa</h3>
                 <p>Llevando 2 bolsas, obten un 50% de descuento en la segunda bolsa.</p>
-                <p class="points">800 puntos</p> <button class="redeem">Canjear</button>
+                <p class="points"><strong>800 puntos</strong></p>
+                <button class="redeem" onclick="redeem500()">Canjear</button>
             </div>
             <div class="reward">
                 <h3>Actualizar a Premium</h3>
                 <p>Mejora tu cuenta a premium y obten mejores beneficios.</p>
-                <p class="points">1500 puntos</p> <button class="redeem">Canjear</button>
+                <p class="points"><strong>1500 puntos</strong></p>
+                <button class="redeem" onclick="redeem500()">Canjear</button>
+            </div>
+            <div id="how">
+                <h2>¿Cómo ganar puntos?</h2>
+                <ul>
+                    <li>Compra bolsas sopresas.</li>
+                    <li>Invita amigos a meriendIA.</li>
+                    <li>Cumple con los objetivos.</li>
+                </ul>
             </div>
         </div>
     </main>

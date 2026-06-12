@@ -33,3 +33,25 @@ function toPoints(){
 function toProfile(){
     window.location.href = "../Profile/Profile.html";
 }
+
+function redeem200() {
+    userPoints = localStorage.getItem('points')
+
+    if(userPoints >= 200) {
+        localStorage.setItem('points', userPoints - 200)
+        alert("¡Puntos canjeados! Se te envió un correo electrónico con el código.")
+        window.location.href = "./Points.html";
+    } else {
+        alert("No tienes los puntos suficientes.")
+}
+}
+
+function redeem500(){
+    userPoints = localStorage.getItem('points')
+
+    if(userPoints >= 500) {
+        localStorage.setItem('points', userPoints - 500)
+        alert("¡Puntos canjeados! Se te envió un correo electrónico con el código.")
+    } else {
+        alert("No tienes los puntos suficientes.")
+}}

@@ -67,7 +67,9 @@ footer button {
 }
 
 nav {
+    background-color: #F9F9F7;
     border-radius: 2rem;
+    background-color: #69b543;
 }
 
 nav button a {

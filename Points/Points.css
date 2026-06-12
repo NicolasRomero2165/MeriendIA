@@ -9,11 +9,36 @@
     padding: 1rem;
 }
 
+.reward p{
+    font-weight: normal;
+}
+
 .reward button{
-    width: 25%;
-    right: 0;
+    display: grid;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#points{
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 .points{
-    
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#how{
+    border-radius: 2rem;
+    border: 1px gray solid;
+    background-color: beige;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+#how li{
+    margin-bottom: 1rem;
 }

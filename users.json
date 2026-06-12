@@ -15,7 +15,7 @@
     "number": 1164774447,
     "password": "Cristian1234",
     "image": "https://i.ibb.co/fVLPbt9P/image.png",
-    "points": 160
+    "points": 280
     },
     {
     "id": 3,
@@ -28,12 +28,12 @@
     },
     {
     "id": 4,
-    "name": "Daniel Kondratowich",
-    "email": "danielkondratowich@gmail.com",
+    "name": "Daniel Kondratowicz",
+    "email": "danielkondratowicz@gmail.com",
     "number": 1151175759,
     "password": "Daniel1234",
     "image": "https://i.ibb.co/fdFhV38w/image.png",
-    "points": 56
+    "points": 356
     },
     {
     "id": 5,
@@ -51,6 +51,6 @@
     "number": 2804696292,
     "password": "Fiore1234",
     "image": "https://i.ibb.co/zH6zLwVK/image.png",
-    "points": 99
+    "points": 299
     }
 ]

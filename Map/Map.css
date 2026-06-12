@@ -39,6 +39,7 @@ nav button a {
     border: #487D2D solid 3px;
     margin: auto;
     float: none;
+    margin-bottom: 1rem;
 }
 
 #points {
