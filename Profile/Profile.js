@@ -14,7 +14,7 @@ fetch('../users.json')
     document.getElementById('email').innerHTML = nameEmail
 
 
-        });
+});
 
 function toHome(){
     window.location.href = "../Home/Home.html";
