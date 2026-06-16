@@ -1,0 +1,44 @@
+h1 {
+    border: solid 3px #487D2D;
+    border-radius: 2rem;
+    background-color: #69b543;
+    color: white;
+    padding: 1rem;
+}
+
+#price{
+    color: #487D2D;
+    font-size: xx-large;
+}
+
+#image {
+    width: 100%;
+    border-radius: 2rem;
+    border: solid 3px #487D2D;
+    margin-top: 0;
+}
+
+#impact {
+    color: gray;
+    font-size: x-small;
+    font-weight: normal;
+}
+
+#home {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+#buy{
+    text-align: center;
+    width: 100%;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+#map{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
