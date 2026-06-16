@@ -1,8 +1,15 @@
 h1 {
+    border: solid 3px #69b543;
+    border-radius: 2rem;
+    background-color: #487D2D;
+    color: white;
+    padding: 1rem;
+}
+
+#product {
     border: solid 3px #487D2D;
     border-radius: 2rem;
     background-color: #69b543;
-    color: white;
     padding: 1rem;
 }
 

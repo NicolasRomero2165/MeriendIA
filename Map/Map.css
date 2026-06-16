@@ -1,6 +1,20 @@
+#home {
+    text-align: center;
+}
+
 #map {
-    margin-top: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     border-radius: 2rem;
+}
+
+#map h3 {
+    background-color: #487D2D;
+    color: white;
+    border-radius: 2rem;
+    border: 3px #69b543 solid;
+    font-size: x-large;
+    padding: 1rem;
 }
 
 #map iframe {
