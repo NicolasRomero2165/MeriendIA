@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../index.css">
+        <link rel="stylesheet" href="./Commerce.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Despacho</title>
+    </head>
+    <body>
+        <div id="container">
+        <header>
+            <img src="../img/home/meriendia.jpg" alt="Logo MeriendIA">
+        </header>
+        <main id="home">
+            <div id="title">
+                <h1 id="name">Reca Café</h1>
+                <p id="direction">Necochea 295, Ramos Mejía</p>
+            </div>
+            <h2>Productos a despachar</h2>
+            <div class="sold">
+                <p><strong>Pedido:</strong>#34521 - 16:46 16/6/2026</p>
+                <div class="box" id="bag">Usuario: Matias Romero<br/><strong id="bags">Sandwich Gourmet</strong></div><br/><br/><br/><br/>
+                <p>2 x $14.000 = <strong id="time">$ 28.000</strong> <button class="ticket" onclick="ticket()">Imprimir Ticket</button> <button class="bill">📋</button></p>
+            </div>
+            <div class="sold">
+                <p><strong>Pedido:</strong>#34518 - 17:32 15/6/2026</p>
+                <div class="box" id="bag">Usuario: Melani Francisco<br/><strong id="bags">Caja Sorpresa</strong></div><br/><br/><br/><br/>
+                <p>1 x $30.000 = <strong id="time">$ 30.000</strong> <button class="ticket" onclick="ticket()">Imprimir Ticket</button> <button class="bill">📋</button></p>
+            </div>
+            <div class="sold">
+                <p><strong>Pedido:</strong>#34510 - 17:14 15/6/2026</p>
+                <div class="box" id="bag">Usuario: Nicolas Antunez<br/><strong id="bags">Bowl Mediterraneo</strong></div><br/><br/><br/><br/>
+                <p>1 x $11.000 = <strong id="time">$ 11.000</strong> <button class="ticket" onclick="ticket()">Imprimir Ticket</button> <button class="bill">📋</button></p>
+            </div>
+            <div class="sold">
+                <p><strong>Pedido:</strong>#34411 - 18:01 14/6/2026</p>
+                <div class="box" id="bag">Usuario: Cristian Rojas<br/><strong id="bags">Pastelería Premium</strong></div><br/><br/><br/><br/>
+                <p>3 x $17.500 = <strong id="time">$ 52.500</strong> <button class="ticket" onclick="ticket()">Imprimir Ticket</button> <button class="bill">📋</button></p>
+            </div>
+            <div id="sell">
+                <button onclick="toCommerce()">Ventas</button>
+                <button onclick="toReturn()">Devoluciones</button>
+            </div>
+        </main>
+        <footer>
+        </footer>
+        </div>
+        <script src="./Commerce.js"></script>
+    </body>

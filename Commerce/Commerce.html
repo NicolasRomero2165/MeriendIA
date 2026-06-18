@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../index.css">
+        <link rel="stylesheet" href="./Commerce.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Comercio</title>
+    </head>
+    <body>
+        <div id="container">
+        <header>
+            <img src="../img/home/meriendia.jpg" alt="Logo MeriendIA">
+        </header>
+        <main id="home">
+            <div id="title">
+                <h1 id="name">Reca Café</h1>
+                <p id="direction">Necochea 295, Ramos Mejía</p>
+            </div>
+            <h2>Ventas</h2>
+            <div id="buttons">
+                <button onclick="Bags(38, 'Semana', 6840)">Semana</button>
+                <button onclick="Bags(152, 'Mes', 27360)">Mes</button>
+                <button onclick="Bags(1824, 'Año', 328320)">Año</button>
+            </div>
+            <div id="sold">
+                <p><strong>Plan de Comercio:</strong> ARS 38.000/mes</p>
+                <div class="box" id="bag">Bolsas vendidas<br/><strong id="bags">38</strong></div>
+                <p>Comisión acumulada: <strong id="time">Semana</strong></p>
+                <div id="totalBox" class="box">Total <br/><strong id="total">$ 6840</strong></div>
+                <p>Estimado basado en bolsas vendidas.</p>
+            </div>
+            <div id="stock">
+                <h2>Stock de bolsas</h2>
+                <ul id="list">
+                    <li>Bowl Mediterráneo 3 / 8</li>
+                    <div class="barBack"><p id="bar1"></p></div>
+                    <li>Sandwich con bebida 6 / 8</li>
+                    <div class="barBack"><p id="bar2"></p></div>
+                    <li>Mix Pastelería 1 / 10</li>
+                    <div class="barBack"><p id="bar3"></p></div>
+                </ul>
+                <div>
+                    <form>
+                        <label for="Nombre">Nombre</label><br/>
+                        <input type="text" name="Nombre" id="inputText">
+                        <label for="Cantidad">Cantidad</label><br/>
+                        <input type="number" name="Cantidad" id="inputCount">
+                    </form>
+                <button onclick="Stock()">Agregar +</button>
+                </div>
+            </div>
+            <div id="sell">
+                <button onclick="toProducts()">Punto de despacho</button>
+                <button onclick="toReturn()">Devoluciones</button>
+            </div>
+        </main>
+        <footer>
+        </footer>
+        </div>
+        <script src="./Commerce.js"></script>
+    </body>

@@ -1,0 +1,148 @@
+#buttons button {
+    width: 30%;
+    margin-top: 0;
+    padding: 0;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#direction {
+    margin: 0;
+    color: gray;
+}
+
+#sold div {
+    display: grid;
+    float: left;
+    align-items: center;
+    text-align: center;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sold {
+    background-color: #487D2D;
+    border-radius: 2rem;
+}
+
+.sold div {
+    display: grid;
+    float: left;
+    align-items: center;
+    text-align: center;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sold p {
+    padding: 1rem;
+    color: white;
+    text-align: left;
+}
+
+#sold {
+    background-color: #487D2D;
+    border-radius: 2rem;
+}
+
+#sold p{
+    padding: 1rem;
+    color: white;
+    text-align: left;
+}
+
+.box {
+    background-color: blanchedalmond;
+    border-radius: 2rem;
+    border: 1px solid #487D2D;
+    height: 5rem;
+    text-align: center;
+}
+
+#time {
+    text-align: center;
+}
+
+#bag {
+    text-align: center;
+    width: 90%;
+}
+
+#bags {
+    font-size: xx-large;
+}
+
+#total {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#totalBox{
+    text-align: center;
+    width: 90%;
+}
+
+#sell {
+    text-align: center;
+}
+
+#sell button {
+    width: 40%;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+#bar1{
+    background-color: #487D2D;
+    width: 30%;
+    height: 1rem;
+    border-radius: 2rem;
+    text-align: left;
+}
+
+#bar2{
+    background-color: #487D2D;
+    width: 75%;
+    height: 1rem;
+    border-radius: 2rem;
+    text-align: left;
+}
+
+#bar3{
+    background-color: #487D2D;
+    width: 10%;
+    height: 1rem;
+    border-radius: 2rem;
+    text-align: left;
+}
+
+.barBack{
+    background-color: burlywood;
+    height: 1rem;
+    border-radius: 2rem;
+    width: 90%;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.ticket{
+    width: 35%;
+    height: 3rem;
+    background-color: cadetblue;
+}
+
+.bill {
+    width: 10%;
+    height: 3rem;
+    background-color: cadetblue;
+}

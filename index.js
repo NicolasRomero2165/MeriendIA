@@ -8,6 +8,7 @@ function login(inputEmail, inputPass) {
 
     inputEmail = document.getElementById("email").value
     inputPass = document.getElementById("password").value
+    
 
     if(inputEmail.trim() === '' || inputPass.trim() === '') {
         alert('Debe completar todos los campos.')
@@ -40,4 +41,17 @@ function login(inputEmail, inputPass) {
 
     })
     .catch(error => console.error('Error al cargar el JSON:', error));
+}
+
+function toAccount(user){
+    if (user === "commerce") {
+        window.location.href = "./commerceAccount.html"
+    } else {
+        window.location.href = "./userAccount.html"
+    }
+    
+}
+
+function toLogin(){
+    window.location.href = "./index.html";
 }
